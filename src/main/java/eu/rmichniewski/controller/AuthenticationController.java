@@ -1,18 +1,16 @@
-package de.ertantoker.tutorial.controller;
+package eu.rmichniewski.controller;
 
-import de.ertantoker.tutorial.exception.EntityNotFoundException;
-import de.ertantoker.tutorial.model.Account;
-import de.ertantoker.tutorial.repository.AccountRepository;
-import de.ertantoker.tutorial.request.AuthenticationRequest;
-import de.ertantoker.tutorial.response.JWTTokenResponse;
-import de.ertantoker.tutorial.service.AuthenticationService;
+import eu.rmichniewski.exception.EntityNotFoundException;
+import eu.rmichniewski.model.Account;
+import eu.rmichniewski.repository.AccountRepository;
+import eu.rmichniewski.request.AuthenticationRequest;
+import eu.rmichniewski.response.JWTTokenResponse;
+import eu.rmichniewski.service.AuthenticationService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-
-import java.net.URLEncoder;
 
 @CrossOrigin(origins = {
         "http://localhost:4200",

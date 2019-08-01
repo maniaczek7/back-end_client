@@ -1,8 +1,8 @@
-package de.ertantoker.tutorial.service;
+package eu.rmichniewski.service;
 
-import de.ertantoker.tutorial.exception.EntityNotFoundException;
-import de.ertantoker.tutorial.repository.AccountRepository;
-import de.ertantoker.tutorial.response.JWTTokenResponse;
+import eu.rmichniewski.exception.EntityNotFoundException;
+import eu.rmichniewski.repository.AccountRepository;
+import eu.rmichniewski.response.JWTTokenResponse;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package de.ertantoker.tutorial.config;
+package eu.rmichniewski.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

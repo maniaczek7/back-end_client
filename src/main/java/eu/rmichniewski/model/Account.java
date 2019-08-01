@@ -1,4 +1,4 @@
-package de.ertantoker.tutorial.model;
+package eu.rmichniewski.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

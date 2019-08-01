@@ -1,6 +1,6 @@
-package de.ertantoker.tutorial.repository;
+package eu.rmichniewski.repository;
 
-import de.ertantoker.tutorial.model.Account;
+import eu.rmichniewski.model.Account;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;

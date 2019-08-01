@@ -1,4 +1,4 @@
-package de.ertantoker.tutorial.response;
+package eu.rmichniewski.response;
 
 public class JWTTokenResponse {
     private String token;

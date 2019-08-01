@@ -1,4 +1,4 @@
-package de.ertantoker.tutorial.request;
+package eu.rmichniewski.request;
 
 public class AuthenticationRequest {
 

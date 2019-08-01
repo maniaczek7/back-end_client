@@ -1,7 +1,7 @@
-package de.ertantoker.tutorial;
+package eu.rmichniewski;
 
-import de.ertantoker.tutorial.model.Account;
-import de.ertantoker.tutorial.repository.AccountRepository;
+import eu.rmichniewski.model.Account;
+import eu.rmichniewski.repository.AccountRepository;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.security.crypto.password.PasswordEncoder;

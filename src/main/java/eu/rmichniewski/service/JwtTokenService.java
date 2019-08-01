@@ -1,4 +1,4 @@
-package de.ertantoker.tutorial.service;
+package eu.rmichniewski.service;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

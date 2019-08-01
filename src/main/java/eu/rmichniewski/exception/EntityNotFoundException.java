@@ -1,4 +1,4 @@
-package de.ertantoker.tutorial.exception;
+package eu.rmichniewski.exception;
 
 public class EntityNotFoundException extends RuntimeException {
     public EntityNotFoundException(String msg) {
