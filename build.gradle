@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'eu.rmichniewski'
+version = '0.0.1-SNAPSHOT'
+
+description = "back_end-client"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+repositories {
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version:'2.0.4.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version:'2.0.4.RELEASE'
+    compile group: 'org.springframework.data', name: 'spring-data-mongodb', version:'2.0.9.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version:'2.0.4.RELEASE'
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version:'0.9.1'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version:'2.9.2'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version:'2.9.2'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version:'2.0.4.RELEASE'
+    compile group: 'io.micrometer', name: 'micrometer-core', version:'1.0.6'
+    compile group: 'io.micrometer', name: 'micrometer-registry-prometheus', version:'1.0.6'
+}

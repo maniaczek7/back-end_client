@@ -1,2 +1,4 @@
 .idea/
-spring-boot-authentication-service.iml
+.gradle/
+target/
+back_end-client.iml
