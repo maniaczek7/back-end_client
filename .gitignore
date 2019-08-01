@@ -1,4 +1,5 @@
 .idea/
 .gradle/
 target/
+build/
 back_end-client.iml
