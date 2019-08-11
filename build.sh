@@ -1,5 +1,6 @@
 #!/bin/bash
-# remember to click maven install to create JAR file!
+# remember to click maven/gradle install to create JAR file!
+./gradlew clean build
 eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env dev)
 docker build -t rmichniewskihome/application:back-end_login .
 docker push rmichniewskihome/application:back-end_login
