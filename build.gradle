@@ -25,29 +25,16 @@ repositories {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-//dependencies {
-//    compile group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version:'2.0.4.RELEASE'
-//    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version:'2.0.4.RELEASE'
-//    compile group: 'org.springframework.data', name: 'spring-data-mongodb', version:'2.0.9.RELEASE'
-//    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version:'2.0.4.RELEASE'
-//    compile group: 'io.jsonwebtoken', name: 'jjwt', version:'0.9.1'
-//    compile group: 'io.springfox', name: 'springfox-swagger-ui', version:'2.9.2'
-//    compile group: 'io.springfox', name: 'springfox-swagger2', version:'2.9.2'
-//    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version:'2.0.4.RELEASE'
-//    compile group: 'io.micrometer', name: 'micrometer-core', version:'1.0.6'
-//    compile group: 'io.micrometer', name: 'micrometer-registry-prometheus', version:'1.0.6'
-//    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'2.0.3.RELEASE'
-//}
-
 dependencies {
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version:'2.0.3.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest', version:'2.0.3.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version:'2.0.3.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version:'2.0.3.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version:'2.0.4.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    compile group: 'org.springframework.data', name: 'spring-data-mongodb'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security'
     compile group: 'io.jsonwebtoken', name: 'jjwt', version:'0.9.1'
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version:'2.9.2'
     compile group: 'io.springfox', name: 'springfox-swagger2', version:'2.9.2'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version:'2.0.3.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator'
+    compile group: 'io.micrometer', name: 'micrometer-core'
+    compile group: 'io.micrometer', name: 'micrometer-registry-prometheus'
     testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'2.0.3.RELEASE'
 }
